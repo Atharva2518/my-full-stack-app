@@ -1,4 +1,4 @@
-/*database info */
+/*database info  related to schemas*/
 const mongoose = require("mongoose");
 mongoose
   .connect("mongodb+srv://admin:97rC6svSi9ly08dF@cluster0.iqubwzi.mongodb.net/")

@@ -1,5 +1,6 @@
+/* Routing for user related apis (new user and login)*/
 const express = require("express");
-const router = express.Router(); //this is used to route it to this file
+const router = express.Router();
 const zod = require("zod");
 const mongoose = require("mongoose");
 const User = require("../db");
